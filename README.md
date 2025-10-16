@@ -26,8 +26,8 @@ app.get('/', (req, res) => {
         botStatus: "Online",
         recentActivities: [
             "J doat",
-            "onlytst",
-            "tst"
+            "?? ",
+            "?"
         ]
     };
     res.render('index', { data: dashboardData });
